@@ -7,7 +7,7 @@ async function main() {
       spinner.classList.add("spinner-border");
       document.querySelector("#box").appendChild(spinner);
   
-      const url = "http://127.0.0.1:3000";
+      const url = "https://mesquite-leaf-fiber.glitch.me";
       const formData = new FormData(document.querySelector("#ccForm"));
       const text = formData.get("text");
       // console.log(text);
